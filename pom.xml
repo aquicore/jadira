@@ -24,7 +24,7 @@
 	<artifactId>jadira.parent</artifactId>
 	<packaging>pom</packaging>
 
-	<version>4.0.0.CR1-SNAPSHOT</version>
+	<version>4.0.0.CR1-aq</version>
 
 	<name>Jadira Framework Parent</name>
 	<description>Hibernate and DDD support including for Joda Time, JSR 310, Joda Money and other Common Data Types</description>
@@ -972,7 +972,7 @@
 		<module>refdata</module>
 		<module>usertype.spi</module>
 		<module>usertype.core</module>
-		<module>usertype.extended</module>
+		<!-- <module>usertype.extended</module> -->
 		<!--
 			These are commented as they won't be re-released until
 			there is a sufficient range of new features / fixes
